@@ -15,6 +15,7 @@ janela = Tk()
 janela.title('')
 janela.geometry('1080x720')
 #janela.configure (bg = co1)
+#Oi
 
 ttk.Separator(janela, orient=HORIZONTAL).grid(row=0,columnspan=1,ipadx=272)
 
