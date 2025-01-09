@@ -18,5 +18,14 @@ style.theme_use("clam")
 frame_pokemon = Frame(janela, width=550, height=290, relief='flat')
 frame_pokemon.grid(row=1, column=0)
 
+#Cria Label
+label_pokemon = Label(frame_pokemon, text='Gengar', relief='flat', anchor=CENTER, font=("Courier New",20), bg='white', fg='black')
+label_pokemon.place(x=10,y=15)
+
+#Cria Id
+label_id = Label(frame_pokemon, text='#', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+label_id.place(x=10,y=50)
+
+
 
 janela.mainloop()
