@@ -13,7 +13,7 @@ Este é um projeto que fornece
 - status
 - habilidade
 
-Cada pokemon terá suas caracteríticas indicadas pelo sistema
+Cada pokemon terá suas características indicadas pelo sistema
 
 ## :computer: Tecnologias usadas:
 
