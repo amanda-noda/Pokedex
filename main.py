@@ -19,5 +19,8 @@ style.theme_use("clam")
 frame_pokemon = Frame(janela, width=550, height=290, relief='flat')
 frame_pokemon.grid(row=1, column=0)
 
+##Tipo pokemon
+tipo_pok = Label(frame_pokemon, text='Fantasma', relief='flat', anchor=CENTER, font=('Fixedsys 12'), bg='white', fg='black' )
+tipo_pok.place(x=10, y= 15)
 
 janela.mainloop()
