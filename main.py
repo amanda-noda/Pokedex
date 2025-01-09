@@ -1,8 +1,8 @@
 
 from tkinter import *
 from tkinter import ttk
-from PIL import Image, ImageTk
 
+from PIL import Image, ImageTk
 
 
 ##Cria a janela
@@ -35,7 +35,7 @@ label_id.place(x=10, y=70)
 #Perfil Pokemon
 image = Image.open('icone/094.png')
 image = image.resize((238,238))
-image = imageTk.PhotoImage(image)
+image = ImageTk.PhotoImage(image)
 
 label_image = Label(frame_pokemon, image=image,relief='flat', bg='white', fg='black')
 label_image.place(x=10, y=100)
