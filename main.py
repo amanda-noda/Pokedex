@@ -24,12 +24,12 @@ label_pokemon = Label(frame_pokemon, text='Gengar', relief='flat', anchor=CENTER
 label_pokemon.place(x=10,y=15)
 
 ##Tipo pokemon
-tipo_pok = Label(frame_pokemon, text='Fantasma', relief='flat', anchor=CENTER, font=('Fixedsys 12'), bg='white', fg='black' )
-tipo_pok.place(x=10, y= 15)
+tipo_pok = Label(frame_pokemon, text='Fantasma', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black' )
+tipo_pok.place(x=10, y= 50)
 
 #Cria Id
 label_id = Label(frame_pokemon, text='#', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
-label_id.place(x=10,y=50)
+label_id.place(x=10,y=70)
 
 
 
