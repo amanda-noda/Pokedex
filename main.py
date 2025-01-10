@@ -28,7 +28,7 @@ tipo_pok = Label(frame_pokemon, text='Fantasma', relief='flat', anchor=CENTER, f
 tipo_pok.place(x=10, y= 50)
 
 #Cria Id
-label_id = Label(frame_pokemon, text='#', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+label_id = Label(frame_pokemon, text='#94', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
 label_id.place(x=10, y=70)
 
 #Perfil Pokemon
@@ -38,6 +38,22 @@ image_perfil = ImageTk.PhotoImage(image_perfil)
 
 label_image = Label(frame_pokemon, image=image_perfil,relief='flat', bg='white', fg='black')
 label_image.place(x=80, y=50)
+tipo_pok.lift()
+
+##Status pokemon
+status_pok = Label(janela, text='Status', relief='flat', anchor=CENTER, font=("Courier New",20), bg='white', fg='black')
+status_pok.place(x=20, y= 300)
+#HP
+hp_pok = Label(janela, text='HP:60', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+hp_pok.place(x=20, y= 330)
+#ataque
+ataque_pok = Label(janela, text='Ataque:65', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+ataque_pok.place(x=20, y= 350)
+#defesa
+defesa_pok = Label(janela, text='Defesa:60', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+defesa_pok.place(x=20, y= 370)
+
+
 
 
 
