@@ -81,4 +81,15 @@ HB3_pok.place(x=300, y= 370)
 HB4_pok = Label(janela, text='Se fundir a sombra de outros seres', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
 HB4_pok.place(x=300, y= 390)
 
+##cria Botoes
+
+#Perfil Pokemon
+image_perfil_1 = Image.open('icone/gengar-94.png')
+image_perfil_1 = image_perfil_1.resize((50,40))
+image_perfil_1= ImageTk.PhotoImage(image_perfil_1)
+
+b_pok_1 = Button(janela, image=image_perfil_1, text='Gengar', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_1.place(x=380, y=10)
+
+
 janela.mainloop()
