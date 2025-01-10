@@ -7,16 +7,16 @@ from PIL import Image, ImageTk
 ##Cria a janela
 janela = Tk()
 janela.title('')
-janela.geometry('700x660')
+janela.geometry('1080x660')
 janela.configure(bg='white')
 
-ttk.Separator(janela, orient=HORIZONTAL).grid(row=0,columnspan=1,ipadx=350)
+ttk.Separator(janela, orient=HORIZONTAL).grid(row=0,columnspan=1,ipadx=600)
 
 style = ttk.Style(janela)
 style.theme_use("clam")
 
 ##Cria Frame
-frame_pokemon = Frame(janela, width=700, height=290, relief='flat')
+frame_pokemon = Frame(janela, width=1200, height=290, relief='flat')
 frame_pokemon.grid(row=1, column=0)
 
 #Cria Label
@@ -83,13 +83,100 @@ HB4_pok.place(x=300, y= 390)
 
 ##cria Botoes
 
-#Perfil Pokemon
+#Botão 1
 image_perfil_1 = Image.open('icone/gengar-94.png')
-image_perfil_1 = image_perfil_1.resize((50,40))
-image_perfil_1= ImageTk.PhotoImage(image_perfil_1)
+image_perfil_1 = image_perfil_1.resize((40,40))
+image_perfil_1 = ImageTk.PhotoImage(image_perfil_1)
 
 b_pok_1 = Button(janela, image=image_perfil_1, text='Gengar', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
 b_pok_1.place(x=380, y=10)
 
+#Botão 2
+image_perfil_2 = Image.open('icone/aerodactyl-142.png')
+image_perfil_2 = image_perfil_2.resize((40,40))
+image_perfil_2 = ImageTk.PhotoImage(image_perfil_2)
+
+b_pok_2 = Button(janela, image=image_perfil_2, text='Aerodactyl', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_2.place(x=380, y=60)
+
+#Botão 3
+image_perfil_3 = Image.open('icone/bulbasaur-001.png')
+image_perfil_3 = image_perfil_3.resize((40,40))
+image_perfil_3 = ImageTk.PhotoImage(image_perfil_3)
+
+b_pok_3 = Button(janela, image=image_perfil_3, text='Bulbasaur', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_3.place(x=380, y=110)
+
+#Botão 4
+image_perfil_4 = Image.open('icone/charmander-004.png')
+image_perfil_4 = image_perfil_4.resize((40,40))
+image_perfil_4 = ImageTk.PhotoImage(image_perfil_4)
+
+b_pok_4 = Button(janela, image=image_perfil_4, text='Charmander', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_4.place(x=380, y=160)
+
+#Botão 5
+image_perfil_5 = Image.open('icone/crobat-169.png')
+image_perfil_5 = image_perfil_5.resize((40,40))
+image_perfil_5 = ImageTk.PhotoImage(image_perfil_5)
+
+b_pok_5 = Button(janela, image=image_perfil_5, text='Crobat', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_5.place(x=380, y=210)
+
+#Botão 6
+image_perfil_6 = Image.open('icone/cubone-104.png')
+image_perfil_6 = image_perfil_6.resize((40,40))
+image_perfil_6 = ImageTk.PhotoImage(image_perfil_6)
+
+b_pok_6 = Button(janela, image=image_perfil_6, text='Cubone', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_6.place(x=550, y=10)
+
+#Botão 7
+image_perfil_7 = Image.open('icone/mew-151.png')
+image_perfil_7 = image_perfil_7.resize((40,40))
+image_perfil_7 = ImageTk.PhotoImage(image_perfil_7)
+
+b_pok_7 = Button(janela, image=image_perfil_7, text='Mew', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_7.place(x=550, y=60)
+
+#Botão 1
+image_perfil_8 = Image.open('icone/mewtwo-150.png')
+image_perfil_8 = image_perfil_8.resize((40,40))
+image_perfil_8 = ImageTk.PhotoImage(image_perfil_8)
+
+b_pok_8 = Button(janela, image=image_perfil_8, text='Mewtwo', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_8.place(x=550, y=110)
+
+#Botão 9
+image_perfil_9 = Image.open('icone/pikachu-25.png')
+image_perfil_9 = image_perfil_9.resize((40,40))
+image_perfil_9 = ImageTk.PhotoImage(image_perfil_9)
+
+b_pok_9 = Button(janela, image=image_perfil_9, text='Pikachu', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_9.place(x=550, y=160)
+
+#Botão 10
+image_perfil_10 = Image.open('icone/squitle-007.png')
+image_perfil_10 = image_perfil_10.resize((40,40))
+image_perfil_10 = ImageTk.PhotoImage(image_perfil_10)
+
+b_pok_10 = Button(janela, image=image_perfil_10, text='Squitle', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_10.place(x=550, y=210)
+
+#Botão 11
+image_perfil_11 = Image.open('icone/umbreon-197.png')
+image_perfil_11 = image_perfil_11.resize((40,40))
+image_perfil_11 = ImageTk.PhotoImage(image_perfil_11)
+
+b_pok_11 = Button(janela, image=image_perfil_11, text='Umbreon', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_11.place(x=720, y=10)
+
+#Botão 12
+image_perfil_12 = Image.open('icone/vaporeon-134.png')
+image_perfil_12 = image_perfil_12.resize((40,40))
+image_perfil_12= ImageTk.PhotoImage(image_perfil_12)
+
+b_pok_12 = Button(janela, image=image_perfil_12, text='Vaporeon', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_12.place(x=720, y=60)
 
 janela.mainloop()
