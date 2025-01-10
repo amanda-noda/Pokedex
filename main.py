@@ -49,9 +49,21 @@ hp_pok.place(x=20, y= 330)
 #ataque
 ataque_pok = Label(janela, text='Ataque:65', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
 ataque_pok.place(x=20, y= 350)
+#ataque especial
+sp_ataque_pok = Label(janela, text='Ataque especial:130', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+sp_ataque_pok.place(x=20, y= 370)
 #defesa
 defesa_pok = Label(janela, text='Defesa:60', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
-defesa_pok.place(x=20, y= 370)
+defesa_pok.place(x=20, y= 390)
+#defesa especial
+sp_defesa_pok = Label(janela, text='Defesa especial:75', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+sp_defesa_pok.place(x=20, y= 410)
+#velocidade
+velocidade_pok = Label(janela, text='Velocidade:110', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+velocidade_pok.place(x=20, y= 430)
+#total
+total_pok = Label(janela, text='Total:500', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+total_pok.place(x=20, y= 450)
 
 
 
