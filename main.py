@@ -32,12 +32,12 @@ label_id = Label(frame_pokemon, text='#', relief='flat', anchor=CENTER, font=("C
 label_id.place(x=10, y=70)
 
 #Perfil Pokemon
-image_perfil = Image.open('icone/094.png')
-image_perfil = image_perfil.resize((200, 200))
+image_perfil = Image.open('icone/gengar-94.png')
+image_perfil = image_perfil.resize((230, 200))
 image_perfil = ImageTk.PhotoImage(image_perfil)
 
 label_image = Label(frame_pokemon, image=image_perfil,relief='flat', bg='white', fg='black')
-label_image.place(x=100, y=70)
+label_image.place(x=80, y=50)
 
 
 
