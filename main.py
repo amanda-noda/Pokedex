@@ -16,7 +16,7 @@ style = ttk.Style(janela)
 style.theme_use("clam")
 
 ##Cria Frame
-frame_pokemon = Frame(janela, width=700, height=300, relief='flat')
+frame_pokemon = Frame(janela, width=700, height=290, relief='flat')
 frame_pokemon.grid(row=1, column=0)
 
 #Cria Label
