@@ -179,4 +179,28 @@ image_perfil_12= ImageTk.PhotoImage(image_perfil_12)
 b_pok_12 = Button(janela, image=image_perfil_12, text='Vaporeon', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
 b_pok_12.place(x=720, y=60)
 
+#Botão 13
+image_perfil_13 = Image.open('icone/hypno-097.png')
+image_perfil_13 = image_perfil_13.resize((40,40))
+image_perfil_13= ImageTk.PhotoImage(image_perfil_13)
+
+b_pok_13 = Button(janela, image=image_perfil_13, text='Hypno', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_13.place(x=720, y=110)
+
+#Botão 14
+image_perfil_14 = Image.open('icone/lapras-131.png')
+image_perfil_14 = image_perfil_14.resize((40,40))
+image_perfil_14 = ImageTk.PhotoImage(image_perfil_14)
+
+b_pok_14 = Button(janela, image=image_perfil_14, text='Lapras', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=("Courier New", 12), bg='white', fg='black')
+b_pok_14.place(x=720, y=160)
+
+#Botão 15
+image_perfil_15 = Image.open('icone/scyther-123.png')
+image_perfil_15 = image_perfil_15.resize((40,40))
+image_perfil_15 = ImageTk.PhotoImage(image_perfil_15)
+
+b_pok_15 = Button(janela, image=image_perfil_15, text='Scyther', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, ancho=NW, padx=5, font=("Courier new", 12), bg='white', fg='black')
+b_pok_15.place(x=720, y=210)
+
 janela.mainloop()
