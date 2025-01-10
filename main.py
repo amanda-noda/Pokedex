@@ -65,8 +65,20 @@ velocidade_pok.place(x=20, y= 430)
 total_pok = Label(janela, text='Total:500', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
 total_pok.place(x=20, y= 450)
 
+##Habilidades pokemon
+Habilidade_pok = Label(janela, text='Habilidade', relief='flat', anchor=CENTER, font=("Courier New",20), bg='white', fg='black')
+Habilidade_pok.place(x=300, y= 300)
 
+HB1_pok = Label(janela, text='Esconder-se nas sombras', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+HB1_pok.place(x=300, y= 330)
 
+HB2_pok = Label(janela, text='Absorver calor', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+HB2_pok.place(x=300, y= 350)
 
+HB3_pok = Label(janela, text='Lançar maldições', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+HB3_pok.place(x=300, y= 370)
+
+HB4_pok = Label(janela, text='Se fundir a sombra de outros seres', relief='flat', anchor=CENTER, font=("Courier New",10), bg='white', fg='black')
+HB4_pok.place(x=300, y= 390)
 
 janela.mainloop()
