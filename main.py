@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 ##Cria a janela
 janela = Tk()
 janela.title('')
-janela.geometry('1080x660')
+janela.geometry('960x660')
 janela.configure(bg='white')
 
 ttk.Separator(janela, orient=HORIZONTAL).grid(row=0,columnspan=1,ipadx=600)
