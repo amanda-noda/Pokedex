@@ -43,33 +43,33 @@ pokemon = {
     },
 
     'mewtwo': {
-        'status':['Hp:60', 'Ataque:65', 'Ataque especial:130', 'Defesa:60', 'Defesa especial:75', 'Velocidade:110', 'Total:500'],
-        'habilidade':[],
-        'tipo':[],
+        'status':['Hp:106', 'Ataque:110', 'Ataque especial:154', 'Defesa:90', 'Defesa especial:90', 'Velocidade:130', 'Total:680'],
+        'habilidade':['Visão do futuro', 'Recuperar', 'Névoa', 'Troca de energia'],
+        'tipo':['#160', 'Psiquico'],
     },
 
     'pikachu': {
-        'status':['Hp:60', 'Ataque:65', 'Ataque especial:130', 'Defesa:60', 'Defesa especial:75', 'Velocidade:110', 'Total:500'],
-        'habilidade':[],
-        'tipo':[],
+        'status':['Hp:35', 'Ataque:55', 'Ataque especial:50', 'Defesa:40', 'Defesa especial:50', 'Velocidade:90', 'Total:320'],
+        'habilidade':['Trovão', 'Tela de luz', 'thunderbolt', 'Descarga'],
+        'tipo':['#025', 'Eletrico'],
     },
 
     'squitle': {
-        'status':['Hp:60', 'Ataque:65', 'Ataque especial:130', 'Defesa:60', 'Defesa especial:75', 'Velocidade:110', 'Total:500'],
-        'habilidade':[],
-        'tipo':[],
+        'status':['Hp:44', 'Ataque:48', 'Ataque especial:50', 'Defesa:65', 'Defesa especial:64', 'Velocidade:43', 'Total:314'],
+        'habilidade':['Onda crash', 'Bomba hidráulica', 'Defesa de ferro', 'Calda aqua'],
+        'tipo':['#07', 'Água'],
     },
 
     'umbreon': {
-        'status':['Hp:60', 'Ataque:65', 'Ataque especial:130', 'Defesa:60', 'Defesa especial:75', 'Velocidade:110', 'Total:500'],
-        'habilidade':[],
-        'tipo':[],
+        'status':['Hp:95', 'Ataque:65', 'Ataque especial:60', 'Defesa:110', 'Defesa especial:130', 'Velocidade:65', 'Total:525'],
+        'habilidade':['Ultimo recurso', 'Olhar maldoso', 'Screech', 'Pulso escuro'],
+        'tipo':['#197', 'Sombrio'],
     },
 
     'vaporeon': {
-        'status':['Hp:60', 'Ataque:65', 'Ataque especial:130', 'Defesa:60', 'Defesa especial:75', 'Velocidade:110', 'Total:500'],
-        'habilidade':[],
-        'tipo':[],
+        'status':['Hp:130', 'Ataque:65', 'Ataque especial:110', 'Defesa:60', 'Defesa especial:95', 'Velocidade:65', 'Total:525'],
+        'habilidade':['Ultimo recurso', 'Bomba hidrálica', 'Armadura ácida', 'Água lamacenta'],
+        'tipo':['#134', 'Água'],
     },
 
     'hypno': {
