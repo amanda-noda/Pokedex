@@ -151,7 +151,7 @@ descricao_pok.place(x=580, y=300)
 
 descricao_pok1 = Label(janela, text='', relief='flat',
                 anchor=CENTER, font=("Poppins 10"), bg='white', fg='black')
-descricao_pok1.place(x=300, y=400)
+descricao_pok1.place(x=580, y=400)
 
 # cria Botoes
 
