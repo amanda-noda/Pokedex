@@ -31,15 +31,15 @@ pokemon = {
     },
 
     'cubone': {
-        'status':['Hp:60', 'Ataque:65', 'Ataque especial:130', 'Defesa:60', 'Defesa especial:75', 'Velocidade:110', 'Total:500'],
-        'habilidade':[],
-        'tipo':[],
+        'status':['Hp:50', 'Ataque:50', 'Ataque especial:40', 'Defesa:95', 'Defesa especial:50', 'Velocidade:35', 'Total:320'],
+        'habilidade':['Borda dupla', 'Energia de foco', 'Arração', 'Ossos' ],
+        'tipo':['#104', 'Terreno'],
     },
 
     'mew': {
-        'status':['Hp:60', 'Ataque:65', 'Ataque especial:130', 'Defesa:60', 'Defesa especial:75', 'Velocidade:110', 'Total:500'],
-        'habilidade':[],
-        'tipo':[],
+        'status':['Hp:100', 'Ataque:100', 'Ataque especial:100', 'Defesa:100', 'Defesa especial:100', 'Velocidade:100', 'Total:600'],
+        'habilidade':['Psiquico', 'Esfera da aura', 'Transformar', 'Preso'],
+        'tipo':['#151', 'Psiquico'],
     },
 
     'mewtwo': {
