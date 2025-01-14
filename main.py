@@ -126,32 +126,32 @@ total_pok.place(x=20, y=470)
 # Habilidades pokemon
 Habilidade_pok = Label(janela, text='Habilidade', relief='flat',
                        anchor=CENTER, font=("Fixedsys", 20), bg='white', fg='black')
-Habilidade_pok.place(x=300, y=300)
+Habilidade_pok.place(x=260, y=300)
 
 HB1_pok = Label(janela, text='', relief='flat',
                 anchor=CENTER, font=("Poppins 10"), bg='white', fg='black')
-HB1_pok.place(x=300, y=340)
+HB1_pok.place(x=260, y=340)
 
 HB2_pok = Label(janela, text='', relief='flat',
                 anchor=CENTER, font=("Poppins 10"), bg='white', fg='black')
-HB2_pok.place(x=300, y=360)
+HB2_pok.place(x=260, y=360)
 
 HB3_pok = Label(janela, text='', relief='flat',
                 anchor=CENTER, font=("Poppins 10"), bg='white', fg='black')
-HB3_pok.place(x=300, y=380)
+HB3_pok.place(x=260, y=380)
 
 HB4_pok = Label(janela, text='', relief='flat',
                 anchor=CENTER, font=("Poppins 10"), bg='white', fg='black')
-HB4_pok.place(x=300, y=400)
+HB4_pok.place(x=260, y=400)
 
 #Descrição pokemon
 descricao_pok = Label(janela, text='Descrição', relief='flat',
                       anchor=CENTER, font=("Fixedsys", 20), bg='white', fg='black')
-descricao_pok.place(x=580, y=300)
+descricao_pok.place(x=570, y=300)
 
 descricao_pok1 = Label(janela, text='', relief='flat',
                 anchor=CENTER, font=("Poppins 10"), bg='white', fg='black')
-descricao_pok1.place(x=580, y=400)
+descricao_pok1.place(x=570, y=400)
 
 # cria Botoes
 
